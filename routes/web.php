@@ -10,7 +10,18 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'PageController@getHome');
+Route::get('/home', 'PageController@getHome');
+Route::get('/about', 'PageController@getAbout');
+Route::get('/contact', 'PageController@getContact');
+Route::post('/contact/submit','MessagesController@submit');
+Route::get('/services','PageController@getServices');
+Route::get('/portfolio','PageController@getPortfolio');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/albums', 'AlbumsController@adminIndex');
+Route::get('/create', 'AlbumsController@create');
+//Route::get('/', 'AlbumsController@adminIndex');
+Route::get('/admin','AlbumsController@adminIndex');
+Route::get('/messages', 'MessagesController@getMessages');
