@@ -1,4 +1,4 @@
-@extends('layouts.home')
+@extends('layouts.admin')
 
 @section('content')
     <h1> Messages </h1>

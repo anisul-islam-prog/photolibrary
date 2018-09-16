@@ -29,4 +29,4 @@ Route::post('admin/albums/create/store', 'AlbumsController@store');
 //Route::get('/', 'AlbumsController@adminIndex');
 
 Route::get('/admin','AlbumsController@adminIndex');
-Route::get('/messages', 'MessagesController@getMessages');
+Route::get('admin/contactmessages', 'MessagesController@getMessages');

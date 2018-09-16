@@ -58,16 +58,16 @@
                     <div class="side_menu_bottom_inner">
                         <ul class="social_menu">
                             <li>
-                                <a href="{{URL('https://facebook.com/lordofxtreme')}}" target="_blank" > <ion-icon name="logo-facebook" alt="facebook"></ion-icon> </a>
+                                <a href="{{URL('https://facebook.com/lordofxtreme')}}" target="_blank" > <ion-icon name="logo-facebook" size="large" alt="facebook"></ion-icon> </a>
                             </li>
                             <li>
-                                <a href="{{URL('https://twitter.com/lordofxtreme')}}" target="_blank"> <ion-icon name="logo-twitter" alt="twitter"></ion-icon> </a>
+                                <a href="{{URL('https://twitter.com/lordofxtreme')}}" target="_blank"> <ion-icon name="logo-twitter" size="large" alt="twitter"></ion-icon> </a>
                             </li>
                             <li>
-                                <a href="{{URL('https://youtube.com/lordofxtreme')}}" target="_blank"> <ion-icon name="logo-youtube"></ion-icon></a>
+                                <a href="{{URL('https://youtube.com/lordofxtreme')}}" target="_blank"> <ion-icon size="large" name="logo-youtube"></ion-icon></a>
                             </li>
                             <li>
-                                <a href="{{URL('https://instagram.com/lordofxtreme')}}" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                <a href="{{URL('https://instagram.com/lordofxtreme')}}" target="_blank"><ion-icon size="large" name="logo-instagram"></ion-icon></a>
                             </li>
                         </ul>
                         <div class="copy_right">
