@@ -47,9 +47,7 @@
         <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
               @include('inc.messages')
               @yield('content')
-        <!--=================== content body end ====================-->
 
-    </div>
 </div>
 
 <!-- jQuery library -->

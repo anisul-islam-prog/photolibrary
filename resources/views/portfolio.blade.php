@@ -1,3 +1,4 @@
+@extends('layouts.home')
 @section('content')
 <div class="portfolio">
     <div class="container-fluid">
