@@ -1640,13 +1640,13 @@ img {
   color: #ffffff;
 }
 .menu_nav li a:hover {
-  background-color: #99896e;
+  background-color: #f9133b;
 }
 .menu_nav li a:focus {
-  background-color: #99896e;
+  background-color: #8a2a3b;
 }
 .menu_nav li.active a {
-  background-color: #99896e;
+  background-color: #f9133b;
   color: #ffffff;
 }
 .menu_nav .sub-menu {
@@ -1838,16 +1838,16 @@ img {
 }
 
 .btn-primary {
-  background-color: #99896e;
-  border: solid 1px #99896e;
+  background-color: #b73048;
+  border: solid 1px #b73048;
   color: #ffffff;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 .btn-primary:hover {
-  background-color: #18181c;
+  background-color: #802334;
   color: #ffffff;
-  border: solid 1px #18181c;
+  border: solid 1px #802334;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }

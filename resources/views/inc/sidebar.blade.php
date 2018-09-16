@@ -58,22 +58,24 @@
                     <div class="side_menu_bottom_inner">
                         <ul class="social_menu">
                             <li>
-                                <a href="#"> <i class="ion ion-social-pinterest"></i> </a>
+                                <a href="{{URL('https://facebook.com/lordofxtreme')}}" target="_blank" > <ion-icon name="logo-facebook" alt="facebook"></ion-icon> </a>
                             </li>
                             <li>
-                                <a href="#"> <i class="ion ion-social-facebook"></i> </a>
+                                <a href="{{URL('https://twitter.com/lordofxtreme')}}" target="_blank"> <ion-icon name="logo-twitter" alt="twitter"></ion-icon> </a>
                             </li>
                             <li>
-                                <a href="#"> <i class="ion ion-social-twitter"></i> </a>
+                                <a href="{{URL('https://youtube.com/lordofxtreme')}}" target="_blank"> <ion-icon name="logo-youtube"></ion-icon></a>
                             </li>
                             <li>
-                                <a href="#"> <i class="ion ion-social-dribbble"></i> </a>
+                                <a href="{{URL('https://instagram.com/lordofxtreme')}}" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
                             </li>
                         </ul>
                         <div class="copy_right">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            <p class="copyright">Copyright &copy; All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://github.com/lordofxtreme" target="_blank">lordofxtreme</a></p>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+                            <p class="copyright">Copyright &copy; All rights reserved
+                                  <a href="{{URL('https://github.com/lordofxtreme')}}" target="_blank" >lordofxtreme</ion-icon></a>
+                            </p>
+
                         </div>
                     </div>
                 </div>

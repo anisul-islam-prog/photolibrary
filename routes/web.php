@@ -18,6 +18,8 @@ Route::post('/contact/submit','MessagesController@submit');
 Route::get('/services','PageController@getServices');
 Route::get('/portfolio','PageController@getPortfolio');
 
+//Social network route
+
 
 #
 Route::get('admin/albums', 'AlbumsController@adminIndex');
