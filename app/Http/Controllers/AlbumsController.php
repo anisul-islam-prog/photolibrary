@@ -15,4 +15,7 @@ class AlbumsController extends Controller
     public function create(){
       return view('admin.albums.create');
     }
+    public function store(Requests $request){
+      return 123;
+    }
 }

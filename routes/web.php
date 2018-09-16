@@ -19,9 +19,12 @@ Route::get('/services','PageController@getServices');
 Route::get('/portfolio','PageController@getPortfolio');
 
 
+#
+Route::get('admin/albums', 'AlbumsController@adminIndex');
+Route::get('admin/albums/create', 'AlbumsController@create');
+Route::post('admin/albums/create/store', 'AlbumsController@store');
 
-Route::get('/albums', 'AlbumsController@adminIndex');
-Route::get('/create', 'AlbumsController@create');
 //Route::get('/', 'AlbumsController@adminIndex');
+
 Route::get('/admin','AlbumsController@adminIndex');
 Route::get('/messages', 'MessagesController@getMessages');

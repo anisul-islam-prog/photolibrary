@@ -20,7 +20,7 @@ class MessagesController extends Controller
       // save message
       $message ->save();
       // redirect
-      return redirect('/')->with('success','Message Sent');
+      return redirect('/admin')->with('success','Message Sent');
     }
     public function getMessages(){
       $messages= Message::all();
