@@ -3,11 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Album;
 
 class PageController extends Controller
 {
     public function getHome(){
-      return view('home');
+      $albums= Album::with('Photos')->get();
+      return view('home')->with('albums', $albums);
     }
     public function getAbout(){
       return view('about');

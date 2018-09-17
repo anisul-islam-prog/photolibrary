@@ -79,5 +79,6 @@
                         </div>
                     </div>
                 </div>
+</div>
                 <!--social and copyright end -->
 <!--=================== side menu ====================-->

@@ -42,12 +42,9 @@
     </a>
     <div class="row justify-content-center">
                 @include('inc.sidebar')
+                @include('inc.messages')
+                @yield('content')
     </div>
-        <!--=================== content body ====================-->
-        <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
-              @include('inc.messages')
-              @yield('content')
-
 </div>
 
 <!-- jQuery library -->
