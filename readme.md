@@ -14,10 +14,13 @@ Photography is a project build with framework laravel.
 * XML PHP Extension
 * Ctype PHP Extension
 * JSON PHP Extension
+* Composer
 
 ## Usage
 Go to folder
 ```py
+>composer install
+>git clone https://github.com/lordofxtreme/photography.git
 >php artisan serve
 
 This command will start a development server at
