@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Album;
 
 class AlbumsController extends Controller
 {
@@ -30,7 +31,7 @@ class AlbumsController extends Controller
       $filenameToStore= $filename.'_'.time().'.'.$extension;
       //Upload Image
       $path=$request -> file('cover_image') ->storeAs('public/img/albumcovers',$filenameToStore);
-
-      return $path;
+      //create Album
+      $album= new Album;
     }
 }
