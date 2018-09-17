@@ -15,7 +15,7 @@
 
     <!-- Bootstrap CSS -->
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="{{URL('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('css/bootstrap.min.css')}}">
 
     <!-- Fonts Icon CSS  <link href="{{URL::asset('css/ionicons.min.css')}}" rel="stylesheet"> -->
     <link href="{{URL::asset('css/font-awesome.css')}}" rel="stylesheet">
@@ -29,6 +29,7 @@
     <link href="{{URL::asset('css/animate.css')}}" rel="stylesheet">
     <!-- main CSS -->
     <link href="{{URL::asset('css/main.css')}}" rel="stylesheet">
+    <link href="{{URL::asset('css/custom.css')}}" rel="stylesheet">
 </head>
 <body>
 <div class="loader">
@@ -53,7 +54,7 @@
 <script src="{{URL('https://unpkg.com/ionicons@4.4.2/dist/ionicons.js')}}"></script>
 <!-- bootstrap -->
 <script type="text/javascript" src="{{URL::asset('js/popper.js')}}"></script>
-<script src="{{URL('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')}}"></script>
+<script src="{{URL::asset('js/bootstrap.min.js')}}"></script>
 <script type="text/javascript" src="{{URL::asset('js/waypoints.min.js')}}"></script>
 <!--slick carousel -->
 <script type="text/javascript" src="{{URL::asset('js/slick.min.js')}}"></script>

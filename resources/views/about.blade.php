@@ -1,8 +1,6 @@
 @extends('layouts.home')
 @section('content')
-
-
-        <!--=================== content body ====================-->
+<!--=================== content body ====================-->
         <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
             <div>
                 <div class="img_card">
@@ -96,7 +94,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-5 img_section" style="background-image: url('assets/img/bg/about.png');"></div>
+                        <div class="col-md-6 col-5 img_section aboutbackimg" ></div>
                     </div>
                 </div>
             </div>
