@@ -29,6 +29,8 @@ Route::post('admin/albums/create/store', 'AlbumsController@store');
 //admin PhotosController
 Route::get('/photos/create/{id}', 'PhotosController@create');
 Route::post('photos/store', 'PhotosController@store');
+Route::get('/photos/{id}', 'PhotosController@show');
+Route::delete('/photos/{id}', 'PhotosController@destroy');
 //Admin Login
 //Route::get('/', 'AlbumsController@adminIndex');
 
